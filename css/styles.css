@@ -78,10 +78,12 @@ ul {
     color: var(--primary-text-color);
 }
 
-.job-position {
+.job-position,
+.project-text {
     font-size: 16px;
     line-height: 1.9;
     color:var(--secondary-text-color);
+    text-decoration: none;
 }
 
 .project-title {
@@ -93,13 +95,6 @@ ul {
 }
 
 .project-link {
-    text-decoration: none;
-}
-
-.project-text {
-    font-size: 16px;
-    line-height: 1.89;
-    color: var(--secondary-text-color);
     text-decoration: none;
 }
 
@@ -115,7 +110,7 @@ ul {
 }
 
 .secondary-button {
-    color: var(--accent-color);
+    color: var(--primary-text-color);
 }
 
 .secondary-button:hover,
@@ -147,14 +142,16 @@ ul {
     color: var(--primary-white-color);
 }
 
-.contact-list .contact-mail .contact-phone {
+.contact-item {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     color:var(--secondary-text-color);
+    text-decoration: none;
 }
 
-.contact-list .contact-mail .contact-phone:hover, :focus {
+.contact-item:hover, 
+.contact-item:focus {
     font-style: normal;
     color: var(--accent-color);
     
