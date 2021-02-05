@@ -1,13 +1,16 @@
 
 :root {
-    --primary-text-color: #757575;
+    --primary-text-color: #212121;
+    --secondary-text-color:#757575;
     --accent-color: #2196F3;
     --primary-white-color:#FFFFFF;
+}
   
 .body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: roboto, sans-serif;
+}
 
 
 .logo {
@@ -16,7 +19,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
 }
 
 .blue-logo {
@@ -27,6 +30,75 @@
     color: var(--primary-text-color);
 }
 
+.main-title {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.item-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.66;
+    color: var(--primary-text-color);
+}
+
+.text {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+.section-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.item-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--primary-text-color);
+}
+
+.job-position {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.9;
+    color:var(--secondary-text-color);
+}
+
+.address {
+   font-size: 14px;
+line-height: 1.71;
+color: var(--primary-white-color);
+}
+
+tel
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);*/
+
+
 .list {
      list-style: none;
 }
@@ -34,23 +106,31 @@
 .button:hover, :focus {
     color: var(--accent-color);
     text-decoration: none;
+}
 
+.button.pimary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
 
 .site-nav .link {
     color:var(--accent-color);
 }
 
-.site-nav .link:hover 
+.site-nav .link:hover, 
 .site-nav .link:focus {
-    color: #000000;
+    color: var(--primary-text-color);
 
 h1, h2, h3 {
-    color: #212121;
+    color: var(--primary-text-color);
 }
+<!-- Footer -->
 
-p {
-    color:#212121;
-}
 .contact-mail .contact-phone {
     color: var(--accent-color);
     text-decoration: none;
