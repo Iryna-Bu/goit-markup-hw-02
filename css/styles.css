@@ -11,7 +11,9 @@ body {
     font-family: roboto, sans-serif;
 }
 
-
+ul {
+    list-style-type: none;
+}
 .logo {
     color: var(--primary-text-color);
     font-family: raleway, sans serif;
@@ -40,7 +42,12 @@ body {
 }
 
 .link-registration {
-
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    color: var(--primary-white-color);
+    text-decoration: none;
 }
 
 .item-title {
@@ -83,7 +90,6 @@ body {
     line-height: 2;
     color: var(--primary-text-color);
     text-decoration: none;
-
 }
 
 .project-link {
@@ -119,16 +125,20 @@ body {
 }
 
 .site-nav .link {
-    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color: var(--primary-text-color);
+    color: var(--accent-color);
     
 }
-<!-- Футер -->
+/*-- Футер --*/
 
 .address {
     font-style: normal;
@@ -141,14 +151,13 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    text-decoration: none;
     color:var(--secondary-text-color);
 }
 
 .contact-list .contact-mail .contact-phone:hover, :focus {
     font-style: normal;
     color: var(--accent-color);
-    text-decoration: none;
+    
 }
 
 
